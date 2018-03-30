@@ -9,20 +9,20 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/start_login_btn"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
-        android:text="Welcome to Lapit \n Chat App"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="118dp"
+        android:text="@string/welcome_to_n_projectu"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
 
     <Button
         android:id="@+id/start_reg_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -30,12 +30,12 @@
         android:backgroundTint="@android:color/white"
         android:paddingLeft="25dp"
         android:paddingRight="25dp"
-        android:text="@string/need_a_new_account"
+        android:text="@string/register"
         android:textColor="@color/colorPrimary" />
 
     <Button
         android:id="@+id/start_login_btn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/start_reg_btn"
         android:layout_centerHorizontal="true"
@@ -43,6 +43,6 @@
         android:backgroundTint="@color/colorAccent"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="ALREADY HAVE ACCOUNT"
+        android:text="@string/log_in"
         android:textColor="@android:color/white" />
 </RelativeLayout>
