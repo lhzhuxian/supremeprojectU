@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="edu.duke.wibbfya.projectU.LapitChat"
+        android:name="edu.duke.wibbfya.projectU.Chat"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -45,7 +45,7 @@
             android:parentActivityName="edu.duke.wibbfya.projectU.MainActivity" />
         <activity android:name="edu.duke.wibbfya.projectU.ProfileActivity">
             <intent-filter>
-                <action android:name="in.tvac.akshaye.lapitchat_TARGET_NOTIFICATION" />
+                <action android:name="edu.duke.wibbfya.projectU_TARGET_NOTIFICATION" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

@@ -14,7 +14,7 @@ import com.squareup.picasso.Picasso;
 
 
 
-public class LapitChat extends Application{
+public class Chat extends Application{
 
     private DatabaseReference mUserDatabase;
     private FirebaseAuth mAuth;

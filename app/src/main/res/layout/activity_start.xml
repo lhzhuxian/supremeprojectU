@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="121dp"
+        android:layout_marginTop="112dp"
         android:text="@string/welcome_to_n_projectu"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+        android:textSize="32sp"
         android:textStyle="bold|italic" />
 
     <Button
@@ -25,8 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
         android:backgroundTint="@android:color/white"
         android:paddingLeft="25dp"
         android:paddingRight="25dp"
